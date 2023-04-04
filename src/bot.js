@@ -25,8 +25,6 @@ const PREFIX = "$";
 client.on("messageCreate", (message) => {
 
   console.log(`[${message.author.tag}] : ${message.content}`);
-  // if bot has send some messages the bot is not going to reply to itself;
-
 
   if (message.author.bot) return;
 
